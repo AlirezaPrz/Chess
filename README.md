@@ -8,6 +8,15 @@ A multi‐mode chess AI project featuring:
 
 ---
 
+## Demo
+
+<video src="demo/demo.mov" controls width="600">
+  Your browser does not support the video tag.
+</video>
+
+
+---
+
 ## Features
 
 - **Custom Gym environment** (`ChessEnv.py`) for RL training  
