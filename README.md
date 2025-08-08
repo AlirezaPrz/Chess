@@ -4,7 +4,7 @@ A multi‐mode chess AI project featuring:
 
 - **Easy** mode: a Deep Q-Network (DQN) agent trained via OpenAI Gym & TensorFlow  
 - **Medium/Hard** modes: classical minimax search with alpha-beta pruning and a phase-aware static evaluation  
-- Interactive Pygame interface for human vs. AI play  
+- Interactive Pygame interface for human vs. AI play
 
 ---
 
@@ -14,7 +14,8 @@ A multi‐mode chess AI project featuring:
 - **Fast static evaluation** tuned for opening development, middlegame tactics and endgame conversion  
 - **Adaptive search depth** based on material count (quicker in opening, deeper in endgame)  
 - **Pygame GUI** with piece sprites, menus & animations  
-- Clear project structure and comprehensive documentation  
+- Clear project structure and comprehensive documentation
+- Bots in three levels, with the hardest being at 1400 elo
 
 ---
 
