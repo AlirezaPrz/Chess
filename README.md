@@ -23,8 +23,8 @@ A multi‐mode chess AI project featuring:
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/yourusername/ChessAI.git
-   cd ChessAI/Chess
+   git clone https://github.com/AlirezaPrz/Chess.git
+   cd Chess/Chess
    ```
 
 2. **Create & activate a virtual environment**
