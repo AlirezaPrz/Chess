@@ -1,0 +1,33 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Model weights / large files
+weights/
+
+# VS Code workspace settings
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Byte-compiled / optimization
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
