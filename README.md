@@ -47,7 +47,7 @@ A multi‐mode chess AI project featuring:
 ### 1. Train the (RL) Bots
 
 ```bash
-python src/TrainModel.py
+python src/train_model.py
 ```
 
 This will spin up the Gym environment, train the DQN agent, and save model weights under `weights/`.
@@ -55,7 +55,7 @@ This will spin up the Gym environment, train the DQN agent, and save model weigh
 ### 2. Play against the AI
 
 ```bash
-python src/ChessMain.py
+python src/chess_main.py
 ```
 
 * On launch, choose **Easy**, **Medium**, or **Hard** mode.
@@ -74,12 +74,12 @@ Chess/
 │   └── start/  
 ├── src/                    # Source code  
 │   ├── weights/            # Trained DQN model files
-│   ├── Button.py           # UI button class  
-│   ├── ChessEngine.py      # Core engine & move generation  
-│   ├── ChessEnv.py         # Gym environment wrapper for RL  
-│   ├── minimaxBot.py       # Minimax + evaluation + search  
-│   ├── TrainModel.py       # RL training script for DQN agent  
-│   ├── ChessMain.py        # Pygame entry-point & menus  
+│   ├── button.py           # UI button class  
+│   ├── chess_engine.py      # Core engine & move generation  
+│   ├── chess_env.py         # Gym environment wrapper for RL  
+│   ├── minimax_bot.py       # Minimax + evaluation + search  
+│   ├── train_model.py       # RL training script for DQN agent  
+│   ├── chess_main.py        # Pygame entry-point & menus  
 │   └── help.py             # Misc utility functions  
 ├── requirements.txt        # `pip install` dependency list  
 ├── CONTRIBUTING.md         # Contribution guidelines  
