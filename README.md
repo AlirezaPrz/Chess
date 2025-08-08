@@ -10,9 +10,7 @@ A multi‐mode chess AI project featuring:
 
 ## Demo
 
-<video src="demo/demo.mov" controls width="600">
-  Your browser does not support the video tag.
-</video>
+https://github.com/user-attachments/assets/3cb21ea3-2ca0-4368-b279-89e59f8d2dd8
 
 
 ---
