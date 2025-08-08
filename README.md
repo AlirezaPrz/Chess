@@ -73,8 +73,7 @@ Chess/
 │   ├── set2/  
 │   └── start/  
 ├── src/                    # Source code  
-│   ├── __pycache__/        # auto-generated (gitignored)
-│   ├── weights/            # Trained DQN model files (gitignored)
+│   ├── weights/            # Trained DQN model files
 │   ├── Button.py           # UI button class  
 │   ├── ChessEngine.py      # Core engine & move generation  
 │   ├── ChessEnv.py         # Gym environment wrapper for RL  
@@ -82,8 +81,6 @@ Chess/
 │   ├── TrainModel.py       # RL training script for DQN agent  
 │   ├── ChessMain.py        # Pygame entry-point & menus  
 │   └── help.py             # Misc utility functions  
-├── venv/                   # Python virtual-env (gitignored)  
-├── .gitignore              # Exclude venv/, weights/, __pycache__/  
 ├── requirements.txt        # `pip install` dependency list  
 ├── CONTRIBUTING.md         # Contribution guidelines  
 ├── LICENSE                 # MIT License  
