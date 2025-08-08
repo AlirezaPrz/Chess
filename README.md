@@ -24,10 +24,9 @@ A multi‐mode chess AI project featuring:
    ```bash
    git clone https://github.com/yourusername/ChessAI.git
    cd ChessAI/Chess
-````
+   ```
 
 2. **Create & activate a virtual environment**
-
    ```bash
    python3 -m venv venv
    source venv/bin/activate       # macOS/Linux
