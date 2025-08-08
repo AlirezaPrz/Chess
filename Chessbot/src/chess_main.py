@@ -267,7 +267,7 @@ def main() -> None:
                     bot_model = None  # no model needed for minimax
                 else:
                     try:
-                        bot_model = tf.keras.models.load_model(f"weights/{bot_level}1_dqn_model_tf.h5", compile=False)
+                        bot_model = tf.keras.models.load_model(f"weights/hard_dqn_model_tf.h5", compile=False)
                     except Exception as e:
                         print(f"Error loading model for {bot_level}: {e}")
                         bot_model = None
